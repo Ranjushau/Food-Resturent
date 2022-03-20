@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-image: url('img/background.png');
+    /* height: 5500px; */
+    background-position: top;
+    background-size: cover;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 750px) {
+    body{
+        box-sizing: border-box;
+    }
+    .navigation-bar{
+        text-align: center;
+        height: auto;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .logo a{
+        font-size: 2vmin;
+    }
+.heroarea{
+    width: 100%;
+    margin-top: -40px;
+}
+    .hero-content {
+width: 100%;
+    }
+    .hero-content span{
+        font-size: 5vmin;
+    }
+    .hero-content .on{
+font-size: 5vmin;
+    }
+}
